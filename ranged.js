@@ -1,5 +1,5 @@
 /*
- * Script for a ranged combat creeps
+ * Script for a ranged combat creep
  */
 
 module.exports = function(creep) {
