@@ -1,8 +1,6 @@
 /*
  * Script for a runner creep
  *
- * Actions:
- *      - moves to the nearest dropped energy source, picks it up and returns it to the nearest spawn
  */
  
 module.exports = function(creep) {
