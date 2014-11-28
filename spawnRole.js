@@ -22,7 +22,7 @@ module.exports = {
         var smallest_mult = Math.pow(2, 53), sm_idx = 0;
         for (var k = 0; k < counts_arr.length; k++) {
             var c = counts_arr[k], r = ratio_arr[k];
-            if ((c % r !== 0 && c !== 0) || (c === 0 && r !== 0)) {
+            if ((c % r !== 0 && r !== 0) || (c === 0 && r !== 0)) {
                 return this.i_to_obj_prop(k, Memory.units[category]).role_name;
             }
             if (c / r < smallest_mult) {
