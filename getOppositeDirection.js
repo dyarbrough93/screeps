@@ -1,5 +1,5 @@
 /*
- * Get the opposite direction of a given direction
+ * Get the opposite of a given direction
  */
  
 module.exports = function(direction) {
