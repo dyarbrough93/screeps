@@ -43,8 +43,7 @@ module.exports = function(parts) {
                 sum += 5;
                 break;
             default:
-                console.log("Object other than body part in array.");
-                return -1;
+                throw new TypeError("Non body-part found in array.");
         }
     }
     
