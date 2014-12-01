@@ -1,5 +1,5 @@
 /*
- * Script for a ranged combat creep
+ * Script for a ranged combat creeps
  */
 
 module.exports = function(creep) {
@@ -36,7 +36,7 @@ module.exports = function(creep) {
     
         if (enemy_creep) {
             
-            if (creep.pos.inRangeTo(enemy_creep, 2)) {
+            if (creep.pos.inRangeTo(enemy_creep, 1)) {
                 var enemy_direction = creep.pos.getDirectionTo(enemy_creep.pos.x, enemy_creep.pos.y);
                 console.log(enemy_direction);
                 creep.move(require('getOppositeDirection')(enemy_direction));
