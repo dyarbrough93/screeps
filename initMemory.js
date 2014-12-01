@@ -11,15 +11,15 @@ module.exports = function() {
                 count: 0,
                 role_name: 'melee'
             },
+            healer: {
+                ratio: 1,
+                count: 0,
+                role_name: 'healer'
+            },
             ranged: {
                 ratio: 1,
                 count: 0,
                 role_name: 'ranged' 
-            },
-            healer: {
-                ratio: 2,
-                count: 0,
-                role_name: 'healer'
             }
             
         },
@@ -45,4 +45,6 @@ module.exports = function() {
             }
         }
     };
+    
+    Memory.sources = {};
 };
