@@ -28,10 +28,10 @@ for (var creep_name in Game.creeps) {
             healer(creep);
             break;
         case 'miner':
-            miner(creep);
+            miner.mine(creep);
             break;
         case 'runner':
-            runner(creep);
+            runner.run(creep);
             break;
         case 'builder':
             builder(creep);
