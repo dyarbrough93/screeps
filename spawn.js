@@ -8,8 +8,8 @@
 
 module.exports = function(category, role, spawn) {
     
-    if (role === null || spawn === null) 
-        throw new TypeError("Null parameters.");
+    if (!role || !spawn || !category) 
+        throw new TypeError("Invalid parameters.");
     
     var body_parts = require('getBodyParts')(role);
     
